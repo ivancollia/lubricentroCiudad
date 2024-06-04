@@ -1,0 +1,202 @@
+body {
+    background-color: #BFD7EA;
+}
+
+nav {
+    position: sticky !important;
+    top: 0 !important;
+    z-index: 1;
+}
+
+.secTitulo {
+    background: url(Archivos/petrolera2.jpg);
+    background-size: cover;
+    height: 100vh;
+}
+
+.titulo {
+    text-align: center;
+    font-size: 15vh;
+}
+
+.tituloTotal {
+    color: white;
+    background: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+}
+
+.textoTitulo {
+    text-align: center;
+    font-size: 5vh;
+}
+
+.sombra {
+    text-shadow: 5px 5px 10px rgb(0, 0, 0);
+}
+
+.secProductos,
+.secNosotros {
+    height: 100vh;
+}
+
+.card,
+.secProductos,
+.secNosotros {
+    padding: 10vh 1vh;
+}
+
+
+.redesSociales {
+    width: 12vh;
+}
+
+.redesSociales:hover {
+    transform: scale(1.2);
+}
+
+.contactoRedes {
+    position: relative;
+    left: 25%;
+    width: 50%;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 2vh;
+    justify-content: center;
+    align-items: center;
+    z-index: 0;
+    top: 15vh;
+    padding: 3vh;
+}
+
+
+.productos {
+    justify-content: center;
+    display: flex;
+    flex-wrap: nowrap;
+    padding: 5vh;
+}
+
+.card {
+    flex: 1 0 140px;
+    padding: 8px;
+    text-align: center;
+    width: 100%;
+    border-radius: 24px;
+}
+
+.imgCard {
+    width: 50vh;
+    height: 50vh;
+    align-self: center;
+    margin-top: 5vh;
+    border-radius: 16px;
+}
+
+.logo {
+    width: 10vh;
+    border-radius: 20vh;
+}
+
+.nosotros {
+    margin-top: 10vh;
+}
+
+.saludo {
+    text-align: center;
+}
+
+.detalles img {
+    width: 10vh;
+}
+
+.detalles {
+    text-align: center;
+}
+
+.linkUbi {
+    color: white;
+}
+
+footer {
+    position: relative;
+    text-align: center;
+    top: -8vh;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+p{
+    font-size: 3vh;
+}
+
+@media (max-width: 600px) {
+
+    .titulo,
+    .textoTitulo {
+        padding: 1vh 2vh;
+    }
+
+    h1 {
+        padding: 0 5vh;
+    }
+
+    .productos {
+        display: block;
+        padding: 0;
+    }
+
+    .card {
+        width: 100%;
+        height: 100%;
+    }
+
+    .imgCard {
+        width: 100%;
+        padding: 2vh;
+    }
+
+    .titulo,
+    .contactoRedes {
+        display: block;
+        padding: 5vh;
+        font-size: 5vh;
+        text-align: center;
+        padding: 1vh;
+    }
+
+    .textoTitulo {
+        font-size: 3vh;
+    }
+
+    .secNosotros {
+        padding: 1vh;
+        text-align: start;
+    }
+
+    .redesSociales {
+        width: 12vh;
+        padding: 1vh;
+    }
+
+    .secProductos {
+        height: 100%;
+    }
+
+    .saludo {
+        font-size: 4vh;
+        text-align: center;
+    }
+
+    .servicios {
+        font-size: 3vh;
+    }
+
+    p {
+        font-size: 2vh;
+    }
+}
